@@ -1,1 +1,1 @@
-Colorified output for terminal output.
+Colorified output for terminal.
