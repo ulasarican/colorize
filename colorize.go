@@ -20,9 +20,9 @@ var (
 )
 
 func Colorize(s string) func(...interface{}) string {
-	sprint := func(args ...interface{}) string {
+	sp := func(args ...interface{}) string {
 		return fmt.Sprintf(s,
 			fmt.Sprint(args...))
 	}
-	return sprint
+	return sp
 }
